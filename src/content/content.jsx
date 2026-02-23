@@ -43,7 +43,7 @@ export const infos = {
   name: "Dr. José G Guerra",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "divorcio-josegleyton.advespecialista.adv.br", // Sem "www"
+  domain: "divorcio-joseguerra.advespecialista.adv.br", // Sem "www"
   phone: {
     ddd: "15",
     firstPart: "98146", // Apenas os 5 primeiros números (incluindo o 9)
