@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
-import { Dialog } from 'primereact/dialog'
-import { X, MapPin, Phone, Mail } from 'lucide-react'
-import SectionArea from '../sectionElements/SectionArea'
-import SectionWrapper from '../sectionElements/SectionWrapper'
-import { Link } from 'react-scroll'
-import FooterSocialIcons from '../sectionElements/footer/FooterSocialIcons'
-import content from '../../content/content'
+import React, { useState } from "react";
+import { Dialog } from "primereact/dialog";
+import { X, MapPin, Phone, Mail } from "lucide-react";
+import SectionArea from "../sectionElements/SectionArea";
+import SectionWrapper from "../sectionElements/SectionWrapper";
+import { Link } from "react-scroll";
+import FooterSocialIcons from "../sectionElements/footer/FooterSocialIcons";
+import content from "../../content/content";
 
 function FooterNovoTemplate({
   mapa,
@@ -19,44 +19,44 @@ function FooterNovoTemplate({
   fraseFooter,
   obs,
 }) {
-  const labels = content.texts.navbar.menuItems
-  const ids = content.texts.navbar.menuId
-  const [visible, setVisible] = useState(false)
+  const labels = content.texts.navbar.menuItems;
+  const ids = content.texts.navbar.menuId;
+  const [visible, setVisible] = useState(false);
 
   const openDialog = async () => {
-    await import('primereact/resources/themes/lara-light-cyan/theme.css')
-    setVisible(true)
-  }
+    await import("primereact/resources/themes/lara-light-cyan/theme.css");
+    setVisible(true);
+  };
 
-  const grid = mapa ? 'lg:grid-cols-4' : 'lg:grid-cols-3'
+  const grid = mapa ? "lg:grid-cols-4" : "lg:grid-cols-3";
 
   // Classes dinâmicas de acordo com colorMode
-  let text, textOpacity, iconColor, backgroundMode
+  let text, textOpacity, iconColor, backgroundMode;
   switch (colorMode) {
-    case 'light':
-      text = 'text-corTitulosPreto'
-      textOpacity = 'text-corOutrosTextosPreto'
-      iconColor = 'text-primaryDark/60'
-      backgroundMode = 'bg-transparent'
-      break
-    case 'dark':
-      text = 'text-corTitulosBranca'
-      textOpacity = 'text-corOutrosTextosBranca'
-      iconColor = 'text-primaryLight/80'
-      backgroundMode = 'bg-transparent'
-      break
-    case 'defaultDark':
-      text = 'text-corTitulosBranca'
-      textOpacity = 'text-corOutrosTextosBranca'
-      iconColor = 'text-white/60'
-      backgroundMode = 'bg-transparent'
-      break
+    case "light":
+      text = "text-corTitulosPreto";
+      textOpacity = "text-corOutrosTextosPreto";
+      iconColor = "text-primaryDark/60";
+      backgroundMode = "bg-transparent";
+      break;
+    case "dark":
+      text = "text-corTitulosBranca";
+      textOpacity = "text-corOutrosTextosBranca";
+      iconColor = "text-primaryLight/80";
+      backgroundMode = "bg-transparent";
+      break;
+    case "defaultDark":
+      text = "text-corTitulosBranca";
+      textOpacity = "text-corOutrosTextosBranca";
+      iconColor = "text-white/60";
+      backgroundMode = "bg-transparent";
+      break;
 
-    case 'defaultLight':
-      text = 'text-corTitulosPreto'
-      textOpacity = 'text-corOutrosTextosPreto'
-      iconColor = 'text-primaryDark/60'
-      backgroundMode = 'bg-transparent'
+    case "defaultLight":
+      text = "text-corTitulosPreto";
+      textOpacity = "text-corOutrosTextosPreto";
+      iconColor = "text-primaryDark/60";
+      backgroundMode = "bg-transparent";
   }
 
   return (
@@ -82,8 +82,8 @@ function FooterNovoTemplate({
                     src={content.texts.navbar.logo.img}
                     alt={content.texts.navbar.logo.alt}
                     className="w-[50%]"
-                    width={187}
-                    height={119}
+                    width={195}
+                height={32}
                   />
                 </a>
 
@@ -255,8 +255,8 @@ function FooterNovoTemplate({
                   className="underline cursor-pointer"
                 >
                   Políticas de privacidade
-                </button>{' '}
-                - Desenvolvido com excelência por{' '}
+                </button>{" "}
+                - Desenvolvido com excelência por{" "}
                 <a
                   target="_blank"
                   href="https://paperstreet.com.br"
@@ -282,11 +282,11 @@ function FooterNovoTemplate({
             closeIcon={<X size={20} />}
             visible={visible}
             onHide={() => setVisible(false)}
-            style={{ width: '50vw' }}
+            style={{ width: "50vw" }}
             breakpoints={{
-              '4000px': '641px',
-              '1024px': '641px',
-              '641px': '85vw',
+              "4000px": "641px",
+              "1024px": "641px",
+              "641px": "85vw",
             }}
           >
             {content.texts.footer.privacidade}
@@ -294,7 +294,7 @@ function FooterNovoTemplate({
         </footer>
       </SectionWrapper>
     </SectionArea>
-  )
+  );
 }
 
-export default FooterNovoTemplate
+export default FooterNovoTemplate;
