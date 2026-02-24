@@ -573,6 +573,7 @@ const content = {
           condução segura do processo de divórcio.
         </>
       ),
+      ctaButtonText: "Resolver meu divórcio com segurança",
       imagens: {
         deposition1: {
           img: img1,
