@@ -10,6 +10,11 @@ import aboutImg from "../assets/imgs/about/aboutImg.webp";
 // import team2 from '../assets/imgs/team/team2.webp'
 // import aboutSocialImg from '../assets/imgs/about/aboutSocial.webp'
 
+import img1 from "../assets/imgs/depositions/deposition1.webp";
+import img2 from "../assets/imgs/depositions/deposition2.webp";
+import img3 from "../assets/imgs/depositions/deposition3.webp";
+import img4 from "../assets/imgs/depositions/deposition4.webp";
+
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
 import {
@@ -224,7 +229,7 @@ const content = {
       miniTag: "Seu divórcio não precisa ser complicado",
       FirstPart: <span>Sabemos que o momento do divórcio </span>,
       Destaque: <span className="italic font-light"> é delicado</span>,
-      SecondPart: <span> e, muitas vezes, doloroso.</span>,
+      SecondPart: <span> e, muitas vezes, doloroso</span>,
       subtitle:
         "Por isso, oferecemos um atendimento humanizado, rápido e totalmente online, para que você resolva tudo com tranquilidade e sem burocracia. Você não precisa enfrentar filas, deslocamentos ou desgaste emocional. Nós cuidamos de tudo para você.",
       imgFeatures: imgFeatures,
@@ -558,6 +563,34 @@ const content = {
       ctaButtonText: "Quero iniciar meu divórcio online",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
+    },
+    depositions: {
+      miniTag: <> Avaliações Reais no Google</>,
+      title: <>Quem precisou de apoio em um momento difícil, recomenda</>,
+      subtitle: (
+        <>
+          Veja o que clientes reais disseram sobre o atendimento, a clareza e a
+          condução segura do processo de divórcio.
+        </>
+      ),
+      imagens: {
+        deposition1: {
+          img: img1,
+          alt: "imagem representativa de depoimento de Clientes",
+        },
+        deposition2: {
+          img: img2,
+          alt: "imagem representativa de depoimento de Clientes",
+        },
+        deposition3: {
+          img: img3,
+          alt: "imagem representativa de depoimento de Clientes",
+        },
+        deposition4: {
+          img: img4,
+          alt: "imagem representativa de depoimento de Clientes",
+        },
+      },
     },
     blog: {
       miniTag: "BLOG",
