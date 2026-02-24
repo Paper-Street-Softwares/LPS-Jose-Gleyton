@@ -174,7 +174,7 @@ const content = {
         icon: <LucideIdCard />,
         iconTwo: <LucideIdCard />,
         text: "Atendimento 100% online e sigiloso",
-        textTwo: "Com orientação de advogada especializada",
+        textTwo: "Com orientação de Advogado especializado",
       },
       secondaryCta: "Contato",
       images: {
@@ -421,7 +421,7 @@ const content = {
       paragraphModalCta: "Entre em contato",
       titleModal: "A_Definir",
       ctaButtonAriaLabel: "Botão para entrar em contato",
-      ctaButtonText: "Falar diretamente com as Advogadas",
+      ctaButtonText: "Falar diretamente com o Advogado",
       // aboutSocial: {
       //   img: {
       //     img: aboutSocialImg,
@@ -499,7 +499,7 @@ const content = {
     },
     ctaSecondary: {
       miniTag: "FALE CONOSCO",
-      title: <h1>Fale agora com uma Advogada</h1>,
+      title: <h1>Fale agora com um Advogado</h1>,
       subtitle: (
         <div>
           <p className="mb-6 font-secondFont">
@@ -522,7 +522,7 @@ const content = {
             <span className="border-2 rounded-full p-1">
               <Check className="" width={17} height={17} />
             </span>{" "}
-            Atendimento humanizado e sigiloso com Advogada especializada
+            Atendimento humanizado e sigiloso com Advogado especializada
           </div>
           <div className="flex items-start gap-2 mx-auto">
             {" "}
