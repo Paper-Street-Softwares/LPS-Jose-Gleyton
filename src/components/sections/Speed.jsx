@@ -69,15 +69,13 @@ function Speed({ colorMode }) {
               ))}
             </div>
 
-            <MotionDivDownToUp>
-              <div className="mt-10 text-center">
-                <p
-                  className={`text-title2 font-medium font-secondFont inline-block px-4 py-1.5 rounded-full text-black/70`}
-                >
-                  Tudo conforme a lei.
-                </p>
-              </div>
-            </MotionDivDownToUp>
+            <div className="mt-10 text-center">
+              <p
+                className={`text-title2 font-medium font-secondFont inline-block px-4 py-1.5 rounded-full text-black/70`}
+              >
+                Tudo conforme a lei.
+              </p>
+            </div>
           </div>
         </section>
       </SectionWrapper>
