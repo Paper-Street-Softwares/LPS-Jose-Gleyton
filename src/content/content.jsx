@@ -174,7 +174,7 @@ const content = {
         icon: <LucideIdCard />,
         iconTwo: <LucideIdCard />,
         text: "Atendimento 100% online e sigiloso",
-        textTwo: "Com orientação de advogada especializada",
+        textTwo: "Com orientação de Advogado especializado",
       },
       secondaryCta: "Contato",
       images: {
