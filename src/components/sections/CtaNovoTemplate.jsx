@@ -53,7 +53,7 @@ function CtaNovoTemplate({ colorMode, container }) {
     },
     {
       icon: <Check className={`${textDestaque}`} />,
-      text: ' Atendimento humanizado e sigiloso com advogada especializada',
+      text: ' Atendimento humanizado e sigiloso com advogado especializada',
     },
     {
       icon: <Check className={`${textDestaque}`} />,
