@@ -37,7 +37,7 @@ function Speed({ colorMode }) {
             title="Dependendo do caso, o divórcio pode ser resolvido:"
             colorMode={colorMode}
           />
-          <div className="w-full mx-auto bg-white rounded-xl p-8 md:p-12 border relative overflow-hidden">
+          <div className="w-full mx-auto bg-white rounded-xl p-8 md:p-12 border relative ">
             <div
               className={`absolute top-0 left-0 bg-primaryDark h-2 w-full`}
             />
@@ -69,13 +69,15 @@ function Speed({ colorMode }) {
               ))}
             </div>
 
-            <div className="mt-10 text-center">
-              <p
-                className={`text-title2 font-medium font-secondFont inline-block px-4 py-1.5 rounded-full text-black/70`}
-              >
-                Tudo conforme a lei.
-              </p>
-            </div>
+            <MotionDivDownToUp>
+              <div className="mt-10 text-center">
+                <p
+                  className={`text-title2 font-medium font-secondFont inline-block px-4 py-1.5 rounded-full text-black/70`}
+                >
+                  Tudo conforme a lei.
+                </p>
+              </div>
+            </MotionDivDownToUp>
           </div>
         </section>
       </SectionWrapper>
