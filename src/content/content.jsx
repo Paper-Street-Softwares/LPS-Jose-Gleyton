@@ -130,11 +130,11 @@ const content = {
       miniTag: "DIVÓRCIO SEM COMPLICAÇÃO",
       FirstPart: <span></span>,
       Destaque: (
-        <span className="destaque relative italic font-light">
+        <span className="relative italic font-light destaque">
           DIVÓRCIO ONLINE{" "}
           {/* <span>
             <svg
-              className="hero-underline absolute -bottom-2 left-0 w-full h-3 text-black hidden desktop1:flex"
+              className="absolute left-0 hidden w-full h-3 text-black hero-underline -bottom-2 desktop1:flex"
               viewBox="0 0 100 10"
               preserveAspectRatio="none"
             >
@@ -146,7 +146,7 @@ const content = {
               />
             </svg>
             <svg
-              className="hero-underline absolute -bottom-2 left-0 w-full h-3 text-black desktop1:hidden"
+              className="absolute left-0 w-full h-3 text-black hero-underline -bottom-2 desktop1:hidden"
               viewBox="0 0 100 10"
               preserveAspectRatio="none"
             >
@@ -173,7 +173,7 @@ const content = {
       alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: "Quero falar com o Advogado agora",
+      ctaButtonText: "Falar Com Advogado Agora",
       ctaButtonTextSecondary: "A_Definir",
       obsHero: {
         icon: <LucideIdCard />,
@@ -379,28 +379,28 @@ const content = {
       paragraph: (
         <div>
           <ul>
-            <li className="font-secondFont flex gap-2">
+            <li className="flex gap-2 font-secondFont">
               <span>
                 {" "}
                 <Check />
               </span>{" "}
               Atuação especializada em Direito de Família
             </li>
-            <li className="font-secondFont flex gap-2">
+            <li className="flex gap-2 font-secondFont">
               <span>
                 {" "}
                 <Check />
               </span>{" "}
               Experiência em divórcios online
             </li>
-            <li className="font-secondFont flex gap-2">
+            <li className="flex gap-2 font-secondFont">
               <span>
                 {" "}
                 <Check />
               </span>{" "}
               Atendimento ágil e personalizado
             </li>
-            <li className="font-secondFont flex gap-2">
+            <li className="flex gap-2 font-secondFont">
               <span>
                 {" "}
                 <Check />
@@ -517,35 +517,35 @@ const content = {
         <div className="flex flex-col gap-3">
           <div className="flex items-start gap-2 mx-auto">
             {" "}
-            <span className="border-2 rounded-full p-1">
+            <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
             Orientação clara sobre seus direitos no divórcio
           </div>
           <div className="flex items-start gap-2 mx-auto">
             {" "}
-            <span className="border-2 rounded-full p-1">
+            <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
             Atendimento humanizado e sigiloso com Advogado especializada
           </div>
           <div className="flex items-start gap-2 mx-auto">
             {" "}
-            <span className="border-2 rounded-full p-1">
+            <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
             Divórcio online, sem audiências e sem desgaste emocional
           </div>
           <div className="flex items-start gap-2 mx-auto">
             {" "}
-            <span className="border-2 rounded-full p-1">
+            <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
             Acompanhamento rápido pelo WhatsApp, do início ao fim
           </div>
           <div className="flex items-start gap-2 mx-auto">
             {" "}
-            <span className="border-2 rounded-full p-1">
+            <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
             Segurança para encerrar esse ciclo e seguir em frente
@@ -553,12 +553,12 @@ const content = {
         </div>
       ),
       // subtitleDireita: (
-      //   <p className="gap-3 flex font-mainFont opacity-60 mt-1">
+      //   <p className="flex gap-3 mt-1 font-mainFont opacity-60">
       //     <span>E N T R E </span> E M <span>C O N T A T O</span> V I A
       //   </p>
       // ),
       // titleDireita: (
-      //   <h1 className="text-title5 my-3 font-mainFont">WhatsApp</h1>
+      //   <h1 className="my-3 text-title5 font-mainFont">WhatsApp</h1>
       // ),
       ctaButtonText: "Quero iniciar meu divórcio agora",
       ctaButtonAriaLabel:
